@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+<link rel="stylesheet" href="pranjal.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+           <img src="portfolio/image-removebg-preview.png" class="logo">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Skills</a></li>
+               <li><a href="#">Achievement</a></li>
+               <li><a href="#">Contact</a></li>
+           </ul>
+        </div>
+        <div class="info">
+            <h3>I'm<span>Pranjal Deshmukh</span></h3>
+             <h3><span>S</span>tudent</h3>
+             <h3>Quick learner from Gwalior,India.
+                <br>I am a student with great passion for coding.</h3> 
+        </div>
+        <div class="image">
+            <img src="portfolio/WhatsApp_Image_2024-01-19_at_2.37.12_AM-removebg-preview.png" class="girl">
+        </div>
+<div class="icons">
+    <a href="#"><icon-icon name="logo-instagram"></icon-icon></a>
+    <a href="#"><icon-icon name="logo-linkedin"></icon-icon></a>
+    <a href="#"><icon-icon name="logo-whatsapp"></icon-icon></a>
+</div>
+    </div>
+     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="image-removebg-preview.png" alt="Logo">
+        </div>
+        <ul>
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#">Services</a></li>
+            <li class="items"><a href="#">About Us</a></li>
+            <li class="items"><a href="#">Contact Details</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Fashion Fever</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sint ad minima voluptates labore itaque et rem est hic eius rerum excepturi neque pariatur deleniti, officia officiis, enim nihil veritatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="PROJECCT_1/clothing-2572851_1280.jpg" alt="Jackets">
+                <h2 class="h-secondary center">Jackets</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptas soluta facilis atque nulla possimus necessitatibus ratione impedit. Atque accusantium ab earum ullam nulla, est rem dolore. Doloremque, voluptas accusamus!</p>
+            </div>
+            <div class="box">
+                <img src="PROJECCT_1/female-diet-870519_1280.jpg" alt="Jeans">
+                <h2 class="h-secondary center">Jeans</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptas soluta facilis atque nulla possimus necessitatibus ratione impedit. Atque accusantium ab earum ullam nulla, est rem dolore. Doloremque, voluptas accusamus!</p>
+            </div>
+            <div class="box">
+                <img src="PROJECCT_1/sweatshirts-428607_1280.jpg" alt="Sweatshirts">
+                <h2 class="h-secondary center">Sweatshirts</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptas soluta facilis atque nulla possimus necessitatibus ratione impedit. Atque accusantium ab earum ullam nulla, est rem dolore. Doloremque, voluptas accusamus!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="PROJECCT_1/google-trends-logo-6-removebg-preview.png" alt="Google Trends Logo">
+            </div>
+            <div class="client-item">
+                <img src="PROJECCT_1/puma-removebg-preview (1).png" alt="Puma Logo">
+            </div>
+            <div class="client-item">
+                <img src="PROJECCT_1/levis-removebg-preview.png" alt="Levis Logo">
+            </div>
+            <div class="client-item">
+                <img src="PROJECCT_1/google-trends-logo-6-removebg-preview.png" alt="Google Trends Logo">
+            </div>
+            <div class="client-item">
+                <img src="PROJECCT_1/image-removebg-preview (5).png" alt="Client Logo">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+#logo {
+    margin: 10px 35px;
+}
+
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url('bg 1.jpg') no-repeat center center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#home h1 {
+    color: black;
+    text-align: center;
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid rgb(96, 5, 5);
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: rgb(242, 237, 226);
+}
+
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#client-section {
+    height: 344px;
+    position: relative;
+}
+
+#client-section::before {
+    content: "";
+    background: url('PROJECCT_1/background images.jpg') no-repeat center center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item {
+    padding: 34px;
+}
+
+#clients img {
+    height: 124px;
+}
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
